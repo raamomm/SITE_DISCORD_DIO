@@ -20,20 +20,23 @@ body{
 
 header{
     grid-area: header;
-    height: 28.75rem;
+    height: auto;
     background-image: url('../images/Header\ Background.svg');
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
     flex-wrap: wrap;
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+    display: flex;
 
 }
 
 #section-header{
     text-align: center;
-    width: 757px;
-    height: 400px;
+    width: 47.3125rem;
     margin: 20px auto;
 }
 
@@ -41,24 +44,28 @@ header{
 
 #section-header h1{
     font-family: "Luckiest Guy", cursive;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0;
+    line-height: 1;
+    margin-top: -0.625rem;
     
 }
 
 #section-header p{
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"wdth" 100;
+    line-height: 1.5;
+    margin-top: -0.625rem;
 }
 
 #buttons{
-    width: 502px;
-    height: 44px;
+    width: 31.375rem;
+    height: auto;
     margin: auto;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -67,8 +74,8 @@ header{
 
 
 #windows{
-    width: 205px;
-    height: 44px;
+    width: 12.8125rem;
+    height: 2.75rem;
     background-color: white;
     border-radius: 28px;
     border: 1px solid white;
@@ -97,22 +104,59 @@ header{
     color: white;
 }
 
-
-
-
-
-
-
-
 main{
-    background: lightcoral;
+    display: flex;
     grid-area: main;
+    padding: 30px;
+    justify-content: left;
+    font-family: "Open Sans", sans-serif;
+    max-width: 1280px;
+    
+}
+
+
+
+.section-1{
+    width: 607px;
+    height: 394px;
+    margin-left: 154px;
+}
+
+.section-1 img{
+    display: flex;
+    max-width: 100%;
+}
+
+.section-2{
+    width: 348px;
+    height: 374px;
+}
+
+.section-2 h2{
+    color: #23272A;
+    font-size: 2.5rem;
+    display: flex;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.section-2 p{
+    color: #23272A;
+    text-align: left;  
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    
 
 }
+
 
 
 footer{
     background: lightgreen;
     grid-area: footer;
+
 }
 
