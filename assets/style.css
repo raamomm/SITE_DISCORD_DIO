@@ -107,7 +107,6 @@ header{
 main{
     flex-direction: row;
     grid-area: main;
-    padding: 30px;
     font-family: "Open Sans", sans-serif;
     
 }
@@ -118,10 +117,16 @@ main{
     grid-area: main;
     max-width: 80rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: "Open Sans", sans-serif;
     color:#23272A;
 
+}
+
+.pair{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 30px;
 }
 
 .section-1{
@@ -161,9 +166,7 @@ main{
 
 }
 
-.section-3{
 
-}
 
 
 footer{
