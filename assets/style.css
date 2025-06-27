@@ -108,7 +108,8 @@ main{
     flex-direction: row;
     grid-area: main;
     font-family: "Open Sans", sans-serif;
-    
+    margin: 0;
+    padding: 0;    
 }
 
 
@@ -126,7 +127,7 @@ main{
 .pair{
     display:flex;
     flex-direction: row;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 .section-1{
@@ -166,12 +167,63 @@ main{
 
 }
 
+.gray{
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 50px 0;
+}
+
+.gray-inner{
+    background-color: #f6f6f6;
+    max-width: 1280px;
+    display: flex;
+    gap: 50px;
+
+}
+
+
+
+.section-3 h2{
+    width: 20.5625rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin-left: 10rem;
+}
+
+.section-3 p{
+    width: 21.75rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-left: 10rem;
+}
+
+
+.section-4{
+    width: 607px;
+    text-align: right;
+    margin-right: 9.625rem;
+}
+
+.section-4 img{
+
+    display: flex;
+    max-width: 100%;
+    
+    
+
+
+    
+}
 
 
 
 footer{
     background: lightgreen;
     grid-area: footer;
+
 
 }
 
