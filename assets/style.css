@@ -290,13 +290,14 @@ footer{
     #section-header h1{
         text-align: left;
         font-size: 2rem;
-        margin-left: 30px;
+        margin-left: 1.875rem;
+
     }
 
     #section-header p{
         width: 381px;
         text-align: left;
-        margin-left: 30px;
+        margin-left: 1.875rem;
         flex-wrap: wrap;
     }
 
@@ -306,7 +307,7 @@ footer{
         font-size: 1rem;
         flex-direction: column;
         text-align: center;
-        margin-left: 30px;
+        margin-left: 1.875rem;
     
     
         }
@@ -322,7 +323,20 @@ footer{
         width: 100%
     }
 
-    
+    .styles{
+        width: 100%;
+        max-width: 428px;
+    }
+
+    .section-1{
+        flex-direction: column;
+    }
+
+    .section-1 img{
+        width: 379px;
+    }
+
+
 
 }
 
