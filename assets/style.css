@@ -280,6 +280,8 @@ footer{
     header{ 
         display: flex;
         flex-direction: column;
+        width: 100%;
+        background-image: url('../images/Header\ Background_minimun.svg');
 
 
 }
@@ -287,16 +289,40 @@ footer{
 
     #section-header h1{
         text-align: left;
-        font-size: 32px;
-        margin: 30px;
+        font-size: 2rem;
+        margin-left: 30px;
     }
 
     #section-header p{
         width: 381px;
         text-align: left;
-        margin: 30px;
+        margin-left: 30px;
+        flex-wrap: wrap;
     }
 
+    #buttons{
+        width: 100%;
+        max-width: 381px;
+        font-size: 1rem;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 30px;
+    
+    
+        }
+
+    #windows{
+        width: 100%;
+        justify-items: left;
+        align-items: left;
+        margin-bottom: 20px;
+    }
+
+    #open-in-browser{
+        width: 100%
+    }
+
+    
 
 }
 
