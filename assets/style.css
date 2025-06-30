@@ -240,17 +240,6 @@ main{
 }
 
 .pair-2 h2{
-    font-family: ;
-    text-align: center;
-    flex-wrap: wrap;
-    line-height: 1.5;
-    letter-spacing: 0;
-
-}
-
-
-
-.final-section h2{
     align-content: center;
     font-family: "Luckiest Guy", cursive;
     line-height: 1.5;
@@ -265,10 +254,11 @@ main{
 .final-image{
     grid-area: main;
     text-align: center;
+    max-width: 100%;
 }
 
 footer{
-    background: palegreen;
+    background: #23272A;
     grid-area: footer;
 
 
