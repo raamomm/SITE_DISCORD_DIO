@@ -205,16 +205,19 @@ main{
     width: 607px;
     text-align: right;
     margin-right: 9.625rem;
+    margin-bottom: 2rem;
 }
 
 .section-4 img{
 
     display: flex;
     max-width: 100%;
-    
-    
+   
+}
 
+.gap{
 
+    margin-top: 5rem;
     
 }
 
