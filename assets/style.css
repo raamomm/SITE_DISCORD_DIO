@@ -277,37 +277,63 @@ footer{
 }
 
 @media screen and (min-width: 428px) and (max-width:800px){
+
+    /*.container{
+        grid-template-rows: 505px 573px repeat(2, 507px) 560px 140px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "header header header" "main main main" "main main main" "main main main" "main main main" "main main main" "footer footer footers" ;
+
+    }*/
+
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
     header{ 
         display: flex;
         flex-direction: column;
-        width: 100%;
         background-image: url('../images/Header\ Background_minimun.svg');
+        width: 100%;
 
 
 }
 
 
+    .section-2{
+    min-width: 428px;
+    width: 100%;
+}
+
     #section-header h1{
+        width: 17.375rem;
         text-align: left;
         font-size: 2rem;
-        margin-left: 1.875rem;
-
+        margin-left: 15px;
+        font-weight: 400;
     }
 
     #section-header p{
-        width: 381px;
+        width: 23.8125rem;
+        font-size: 1rem;
         text-align: left;
-        margin-left: 1.875rem;
-        flex-wrap: wrap;
+        white-space: wrap;
+        word-wrap: break-word;
+        margin: 20px 15px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0;
+        
     }
 
     #buttons{
         width: 100%;
-        max-width: 381px;
+        max-width: 23.8125rem;
         font-size: 1rem;
         flex-direction: column;
         text-align: center;
-        margin-left: 1.875rem;
+        margin-left: 10px;
     
     
         }
@@ -316,31 +342,68 @@ footer{
         width: 100%;
         justify-items: left;
         align-items: left;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     #open-in-browser{
         width: 100%
     }
 
-    .styles{
-        width: 100%;
-        max-width: 428px;
+
+    .section-styles{
+    width: 379px;
+    flex-direction: column;
+
+    }
+
+    .section-pair{
+    flex-direction: column;
     }
 
     .section-1{
+        min-width: 428px;
+        width: 100%;
+        margin: auto;
+    
+    }
+
+    .pair{
+        display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .section-1 img{
-        width: 379px;
+    min-width: 379px;
+    width: 100%;
+
+    
+
+    }
+
+    .section-2{
+    width: 378px;
+    white-space: wrap;
+    flex-direction: column;
+    }
+
+    .section-2 h2{
+    margin: auto;
+    width: 23.125rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0;
+    
+    }
+
+    .section-2 p{
+        width: 23.625rem;
+        text-align: left;
+        margin: 20px auto;
     }
 
 
-
 }
-
-
-    
     
 
