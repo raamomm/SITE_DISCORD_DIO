@@ -216,14 +216,52 @@ main{
 }
 
 .gap{
-
     margin-top: 5rem;
     
 }
 
+.final-section{
+    flex-direction: column;
+    max-width: 1280px;
+    text-align: center;
+    justify-items: center;
+    
+    
+    
+}
 
+
+.pair-2{
+    width: 802px;
+    max-width: 1280px;
+    
+}
+
+.pair-2 h2{
+    font-family: ;
+    text-align: center;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    letter-spacing: 0;
+
+}
+
+
+
+.final-section h2{
+    align-content: center;
+    font-family: "Luckiest Guy", cursive;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 0;
+
+}
 
 footer{
+    
     background: lightgreen;
     grid-area: footer;
 
