@@ -15,7 +15,7 @@ body{
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 459px repeat(3, 448px) 750px 134px;
-    grid-template-areas: "header header header" "main main main" "main main main" "main main main" "main main main"  "footer footer footer";
+    grid-template-areas: "header header header" "main main main" "main main main" "main main main" "main main main" "main main main" "footer footer footer";
 }
 
 header{
@@ -221,6 +221,7 @@ main{
 }
 
 .final-section{
+    grid-area: main;
     flex-direction: column;
     max-width: 1280px;
     text-align: center;
@@ -260,9 +261,13 @@ main{
 
 }
 
+.final-image{
+    grid-area: main;
+    text-align: center;
+}
+
 footer{
-    
-    background: lightgreen;
+    background: palegreen;
     grid-area: footer;
 
 
