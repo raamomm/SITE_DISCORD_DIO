@@ -385,6 +385,7 @@ footer{
     width: 378px;
     white-space: wrap;
     flex-direction: column;
+    margin-top: -90px;
     }
 
     .section-2 h2{
