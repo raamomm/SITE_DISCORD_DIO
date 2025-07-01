@@ -247,7 +247,6 @@ main{
     text-align: center;
     font-size: 2.5rem;
     font-weight: 400;
-    margin-bottom: 0;
 
 }
 
@@ -407,21 +406,108 @@ footer{
         margin: 20px auto;
     }
 
+
+    .gray{
+        padding: 0;
+    }
+    
+    .gray-inner{
+        flex-direction: column-reverse;
+        margin: auto;
+        padding: 40px 24px;
+    }
+
+
+    .section-3{
+        flex-direction: column;
+        text-align: left;
+        margin: 0;
+    }
+    
     .section-3 h2{
-        font-size: 24px;
+        width: 23.6875rem;
+        font-size: 1.5rem;
+        text-align: left;
+        margin: 10px auto;
+        padding: 0;
 
     }
 
+    .section-3 p{
+        width: 378px;
+        font-size: 1rem;
+        text-align: left;
+        margin: 0 auto;
+        padding: 0;
+    }
+
     .section-4{
+        width: 100%;
         flex-direction: column;
+        margin: 0 auto;
 
     }
 
     .section-4 img{
+        text-align: center;
+        width: 100%;
         min-width: 23.6875rem;
         max-width: 31.375rem;
+        margin: 0 auto;
+        padding: 0;
     }
 
+
+    .gap{
+        margin: 50px auto 0;
+    }
+
+    .gap img{
+        min-width: 23.6875rem;
+        max-width: 27rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #mobile{
+        margin: 0 auto;
+    }
+    
+    #mobile h2{
+        font-size: 1.5rem;
+        margin: -5.625rem auto 1.25rem;
+    }
+
+    #mobile p{
+        margin-bottom: 50px;
+    }
+
+    .pair-2{
+        width: 100%;
+        min-width: 428px;
+        margin: auto;
+    }
+
+    .pair-2 h2{
+        align-content: none;
+        width: 100%;
+        font-size: 2rem;
+        text-align: left;
+        margin-left: 1.25rem;
+        margin-right: auto;
+
+    
+    }
+
+    .pair-2 p{
+        flex-direction: column;
+        width: 378px;
+        font-size: 1rem;
+        text-align: left;
+        white-space: wrap;
+        margin: 0 auto;
+        
+    }
 
 }
     
