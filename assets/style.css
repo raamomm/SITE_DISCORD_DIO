@@ -374,7 +374,9 @@ footer{
     }
 
     .section-1 img{
-    min-width: 379px;
+    margin: auto;
+    min-width: 23.6875rem;
+    max-width: 31.375rem;
     width: 100%;
 
     
@@ -385,7 +387,7 @@ footer{
     width: 378px;
     white-space: wrap;
     flex-direction: column;
-    margin-top: -90px;
+    margin-top: -5.625rem;
     }
 
     .section-2 h2{
@@ -400,6 +402,7 @@ footer{
 
     .section-2 p{
         width: 23.625rem;
+        font-size: 1rem;
         text-align: left;
         margin: 20px auto;
     }
