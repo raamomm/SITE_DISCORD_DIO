@@ -275,7 +275,7 @@ footer{
     width: 100%;
 }
 
-@media screen and (min-width: 428px) and (max-width:800px){
+@media screen and (min-width: 428px) and (max-width:1000px){
 
     /*.container{
         grid-template-rows: 505px 573px repeat(2, 507px) 560px 140px;
@@ -284,32 +284,36 @@ footer{
 
     }*/
 
-
+    
     body{
         margin: 0;
         padding: 0;
     }
 
     header{ 
-        display: flex;
+
         flex-direction: column;
         background-image: url('../images/Header\ Background_minimun.svg');
         width: 100%;
+        min-width: 428px;
+        margin: 0 auto;
 
 
 }
 
-
-    .section-2{
-    min-width: 428px;
-    width: 100%;
-}
+    #section-header{
+        min-width: 428px;
+        margin: 0 auto;
+        width: 100%;
+        min-width: 26.75rem;
+        max-width: 26.75rem;
+    }
 
     #section-header h1{
-        width: 17.375rem;
         text-align: left;
         font-size: 2rem;
-        margin-left: 15px;
+        padding: 10px;
+        margin: 0 auto;
         font-weight: 400;
     }
 
@@ -334,6 +338,7 @@ footer{
         flex-direction: column;
         text-align: center;
         margin-left: 0.625rem;
+        
     
     
         }
@@ -384,7 +389,8 @@ footer{
     }
 
     .section-2{
-    width: 378px;
+    min-width: 428px;
+    width: 100%;
     white-space: wrap;
     flex-direction: column;
     margin-top: -5.625rem;
@@ -520,3 +526,26 @@ footer{
 }
     
 
+/*
+    CÓDIGO A BAIXO É UM TESTE QUE FIZ 
+
+    @media screen and (width: 1000px){
+    
+    .container p{
+        text-align: justify;
+    }
+
+    .container h2{
+        text-align: center;
+    }
+
+    #section-header h1{
+        text-align: center;
+}
+    #section-header p{
+        text-align: justify;
+
+    }
+    
+
+}*/
