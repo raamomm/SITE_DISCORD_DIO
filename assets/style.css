@@ -499,7 +499,7 @@ footer{
         width: 23.625rem;
         font-size: 2rem;
         text-align: left;
-        margin: auto;
+        margin:  1.875rem auto;
         
         
 
@@ -512,9 +512,11 @@ footer{
         font-size: 1rem;
         text-align: left;
         white-space: wrap;
-        margin: 0 auto;
+        margin: 10px auto;
         
     }
+
+
 
     .final-image img{
         width: 379px;
