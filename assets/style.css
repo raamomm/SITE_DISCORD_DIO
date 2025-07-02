@@ -282,7 +282,7 @@ footer{
 
     
     .container{
-        grid-template-rows: 31.5625rem 38rem 38rem 35rem 30rem 18.75rem;
+        grid-template-rows: 31.5625rem 38rem 38rem 35rem 30rem 8.75rem;
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: "header header header" "main main main" "main main main" "main main main" "main main main" "footer footer footer" ;
     }
@@ -549,13 +549,13 @@ footer{
 
     footer{
         margin-bottom: 0;
-        height: 180px;
+        height: 8.75rem;
     }
 
     .image-footer{
-       padding: 10px;
+        padding: 0;
         width: 100;
-       height: auto;
+        
        
                  
     }
